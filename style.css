@@ -119,6 +119,10 @@ nav ul a svg {
 .about-me .container {
     width: 50%;
     padding-right: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-me .img-container {
