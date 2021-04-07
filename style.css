@@ -287,7 +287,8 @@ p {
 
 .curriculum .container {
     display: flex;
-    margin: 50px 0;
+    margin: 50px auto;
+    max-width: 1200px;
 }
 
 .curriculum .container .content {
@@ -361,6 +362,17 @@ p {
     .portfolio {
         height: 100%;
     }
+
+    .curriculum .container {
+        flex-wrap: wrap;
+    }
+
+    .curriculum .container .curriculum-img {
+        display: block;
+        margin: 0 auto 50px;
+        width: 100%;
+        max-width: 520px;
+    }
 }
 
 /* tablet */
@@ -429,6 +441,14 @@ p {
 
     .portfolio {
         margin: 100px 0 50px;
+    }
+
+    .curriculum {
+        padding: 0 20px;
+    }
+
+    .curriculum .container .content .curriculum-info {
+        padding: 0 15px;
     }
 }
 
