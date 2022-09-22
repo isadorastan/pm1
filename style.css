@@ -211,6 +211,8 @@ nav ul a svg {
     height: 800px;
     text-align: center;
     background: url('assets/portfolio-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .portfolio .portfolio-container {
